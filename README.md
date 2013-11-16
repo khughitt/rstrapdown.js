@@ -1,3 +1,5 @@
+Overview
+--------
 Quick and easy themes for [RMarkdown](https://github.com/rstudio/markdown) with
 [strapdown.js](http://strapdownjs.com/).
 
@@ -17,10 +19,9 @@ output='output.html')
 To specify a theme to use with [http://yihui.name/knitr/](knitr), you can
 specify the theme to use in a code chunk as follows:
 
-```
-\```{r, include=FALSE}
-options(markdown.HTML.template="themes/readable.html")
-\```
-```
+    ```{r, include=FALSE}
+    options(markdown.HTML.template="themes/readable.html")
+    ```
+
 
 
